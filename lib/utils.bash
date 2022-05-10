@@ -40,7 +40,7 @@ download_release() {
   case $(uname -s) in
   Linux)
     case $(uname -m) in
-    x86_64) suffix="-linux" ;;
+    x86_64) suffix="-linux-amd64" ;;
     arm64) suffix="-linux-arm64" ;;
     armv7l) suffix="-linux-arm-v7" ;;
     armv5l) suffix="-linux-arm-v5" ;;
