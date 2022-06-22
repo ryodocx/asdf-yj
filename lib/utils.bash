@@ -49,8 +49,8 @@ download_release() {
     ;;
   Darwin)
     case $(uname -m) in
-    x86_64) suffix="-macos" ;;
-    arm64) suffix="-macos" ;;
+    x86_64) suffix="-macos-amd64" ;;
+    arm64) suffix="-macos-arm64" ;;
     *) fail "Unsupported architecture: $(uname -m)" ;;
     esac
     ;;
